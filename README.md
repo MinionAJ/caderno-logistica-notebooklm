@@ -22,6 +22,8 @@ Para alimentar e treinar o modelo do NotebookLM, foi realizada uma seleção de 
 
 ### Artigos e Documentos de Texto (Exemplos Utilizados)
 
+* Entre outras fontes a mais que foram usadas para treinar o modelo. Disponíveis para você usar para criar seu NotebookLM. 📚
+
 #### Links (*Artigos Científicos do SciELO / Google Scholar*):
 
 1. https://d1wqtxts1xzle7.cloudfront.net/49104762/New_Managerial_Challenges_from_Supply_Ch20160925-11001-eb4ud9-libre.pdf?1474810617=&response-content-disposition=inline%3B+filename%3DNew_Managerial_Challenges_from_Supply_Ch.pdf&Expires=1782278102&Signature=LHwPXRi8J~0HWYlHFpqwdhOpPX2Bu7bwRnmU8h~FiejmbPbgABd9Fe8n3LfpFH568mC2nlBgqSOfzc1spyNf0VkRZmTRXNYskQxKCnixmqQLSPFT54U4PX-JIsFEniseQ94v~vAp2prFGf2-ba7z8wkWnlowpk4uvW5f2FisIFWvT8VJYPRkuIn~sV4wrTMvbqcuq5vJItxSMebbjlzTpu48a~fZXux1zmYPM5JKGDCwCv9qe1qeWrfp~TpG0l2rDz0ITed6h1vI-SlvHs21Rrats5BcnjNYppMBGDGB01sPIB9Wf3p0egj2g9z-rmdCzwdEZN3d2oaa6V4XgVF61w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
@@ -40,29 +42,32 @@ Para alimentar e treinar o modelo do NotebookLM, foi realizada uma seleção de 
 2. *Vídeo:* SUPPLY CHAIN - Tudo sobre CADEIA DE SUPRIMENTOS (Canal: Ser Logístico) — [Link](http://www.youtube.com/watch?v=hlVf6qiF5fE)
 3. *Vídeo:* O que é KPI? (Canal: Samuel M. Basso) — [Link](http://www.youtube.com/watch?v=7EMVB5YidCo)
 
-* Entre outras fontes a mais que foram usadas para treinar o modelo.
 ---
 
-## 🛠️ 3. Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
+## 🛠️ 3. Engenharia de Prompts e "Cicatrizes" 
 
-Nesta etapa, documentamos as iterações feitas com o NotebookLM para extrair o conhecimento de maneira estruturada. Foram testadas diferentes abordagens de prompts para mitigar alucinações e obter respostas analíticas.
+Nesta etapa, documentei as iterações feitas com o NotebookLM para extrair o conhecimento de maneira estruturada. Foram testadas diferentes abordagens de prompts para mitigar alucinações e obter respostas analíticas.
 
 ### 🧪 Variações de Prompts Testadas
 
-* *Prompt Inicial (Superficial):* "Me fale sobre os tópicos de logística que estão nos textos."
+* *Prompt Inicial (Genérico):* "Me fale sobre os tópicos de logística que estão nos textos."
     * Resultado: Resposta genérica e em tópicos curtos, sem o aprofundamento técnico necessário.
 * *Prompt Avançado (Com Restrição e Papel):* "Atue como um Especialista Sênior em Supply Chain. Com base estritamente nas fontes fornecidas (PDFs e transcrições de vídeos), elabore uma análise comparativa detalhada entre os modelos tradicionais de canais de distribuição e o impacto do e-supply chain."
     * Resultado: Resposta altamente qualificada, estruturada e citando trechos diretos das fontes anexadas.
 
-### 🩹 "Cicatrizes" do Processo (Lições Aprendidas & Soluções)
-1. *O problema do contexto cruzado:* No início, a IA confundiu KPIs gerais de administração com KPIs específicos de transporte (como o On-Time In-Full - OTIF).
+### 🩹 "Cicatrizes" do Processo (Lições Aprendidas e Soluções)
+1. *O problema do contexto cruzado:* No início, a IA confundiu *KPI*s gerais de administração com *KPI*s específicos de transporte (como o *On-Time In-Full - OTIF*).
+*Prompt inicial:*
+    > "Quais os principais *KPI*s e sistemas de medição descritos nas fontes para avaliar o sucesso do negócio?"
    * Solução: Foi necessário refinar os prompts adicionando o termo: "explique focando estritamente em medição nos processos de distribuição física".
+*Prompt refinado:*
+    > "Quais são os *KPI*s descritos focado estritamente no processo de distribuição física e atendimento da demanda?"
 2. *Atualização de Termos:* Textos mais antigos usavam apenas "Logística Integrada". Os vídeos do YouTube trouxeram termos dinâmicos como "Omnicanalidade".
    * Solução: O prompt final comandou a IA a conectar o conceito de Canais de Distribuição com as práticas modernas de mercado descritas nos vídeos.
 
 ---
 
-## 📖 4. Miniguia de Estudo (Entrega Final)
+## 📖 4. Miniguia de Estudo 
 
 Esta seção consolida o conhecimento extraído e refinado pelo NotebookLM, dividida em três pilares fundamentais.
 
