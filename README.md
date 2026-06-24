@@ -1,37 +1,46 @@
 # 📦 Caderno Temático Inteligente: Fundamentos e Avanços em Logística & Supply Chain
 
-Este repositório foi desenvolvido como entrega final para o desafio *"Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM"* na plataforma *Refatorando a DIO (Digital Innovation One). O objetivo principal deste projeto é aplicar conceitos de IA generativa e curadoria digital para estruturar um ambiente de aprendizagem ativa com foco em Logística e Gestão da Cadeia de Suprimentos (*Supply Chain Management).
+Este repositório foi desenvolvido para o desafio *"Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM"* na plataforma da DIO. O objetivo principal deste projeto é aplicar conceitos de IA generativa e curadoria digital para criar um ambiente de aprendizagem ativa com foco em Logística e Gestão da Cadeia de Suprimentos (*Supply Chain Management*).
 
 ---
 
 ## 🎯 1. Contexto e Objetivos
 
 ### Assunto de Interesse
-O assunto escolhido para este caderno temático abrange os pilares fundamentais e as transformações digitais da *Logística Empresarial* e do *Supply Chain Management (SCM). A escolha justifica-se pela relevância estratégica do setor no mercado global, onde a eficiência operacional, a distribuição física inteligente e as tecnologias de *e-supply chain ditam a competitividade das empresas.
+O assunto escolhido para este caderno temático abrange os pilares fundamentais e as transformações digitais da *Logística Empresarial* e do *Supply Chain Management* (SCM). A escolha justifica-se pela relevância estratégica do setor no mercado global, onde a eficiência operacional, a distribuição física inteligente e as tecnologias de *e-supply chain* ditam a competitividade das empresas.
 
 ### Objetivos de Estudo
-1. *Compreender a Jornada Logística:* Absorver desde os conceitos mais básicos (fundamentos e armazenagem) até os fluxos complexos de distribuição e comércio global.
-2. *Aplicar IA na Educação:* Utilizar o Google NotebookLM como um parceiro de estudos para sintetizar grandes volumes de dados (PDFs, artigos e vídeos do YouTube).
+1. *Compreender a Jornada Logística:* Absorver desde os conceitos mais básicos (fundamentos e armazenagem) até os fluxos complexos de distribuição e do comércio global.
+2. *Aplicar IA na Educação:* Utilizar o Google NotebookLM como um parceiro de estudos para administrar grandes volumes de dados (PDFs, artigos e vídeos do YouTube).
 3. *Desenvolver Pensamento Crítico:* Avaliar dados, cruzar referências multimídia e estruturar um repositório técnico reutilizável que sirva como um guia de consulta rápida.
 
 ---
 
 ## 📚 2. Curadoria de Fontes
 
-Para alimentar e treinar o modelo do NotebookLM, foi realizada uma seleção rigorosa de fontes abertas e de alta qualidade técnica, combinando formatos textuais e audiovisuais para garantir uma base de conhecimento holística.
+Para alimentar e treinar o modelo do NotebookLM, foi realizada uma seleção de fontes abertas e de qualidade técnica, combinando formatos textuais e audiovisuais para garantir uma base de conhecimento holística.
 
 ### Artigos e Documentos de Texto (Exemplos Utilizados)
-1. *IPEA (Instituto de Pesquisa Econômica Aplicada):* Notas técnicas e relatórios setoriais sobre infraestrutura logística e transporte multimodal no Brasil.
-2. *Artigos Científicos do SciELO / Google Scholar:*
-   * Gestão de Estoques e Armazenagem: Foco em eficiência de pátio e otimização de espaço.
-   * E-Supply Chain Management: Abordagens sobre a integração digital pós-indústria 4.0.
-3. *Revista Mundo Logística:* Artigos técnicos voltados para indicadores de desempenho (KPIs) e modelos operacionais.
+
+#### Links (*Artigos Científicos do SciELO / Google Scholar*):
+
+1. https://d1wqtxts1xzle7.cloudfront.net/49104762/New_Managerial_Challenges_from_Supply_Ch20160925-11001-eb4ud9-libre.pdf?1474810617=&response-content-disposition=inline%3B+filename%3DNew_Managerial_Challenges_from_Supply_Ch.pdf&Expires=1782278102&Signature=LHwPXRi8J~0HWYlHFpqwdhOpPX2Bu7bwRnmU8h~FiejmbPbgABd9Fe8n3LfpFH568mC2nlBgqSOfzc1spyNf0VkRZmTRXNYskQxKCnixmqQLSPFT54U4PX-JIsFEniseQ94v~vAp2prFGf2-ba7z8wkWnlowpk4uvW5f2FisIFWvT8VJYPRkuIn~sV4wrTMvbqcuq5vJItxSMebbjlzTpu48a~fZXux1zmYPM5JKGDCwCv9qe1qeWrfp~TpG0l2rDz0ITed6h1vI-SlvHs21Rrats5BcnjNYppMBGDGB01sPIB9Wf3p0egj2g9z-rmdCzwdEZN3d2oaa6V4XgVF61w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+
+2. https://www.scielo.br/j/gp/a/fQBjhwVzswCyyMvNNQB4wSF/?format=pdf&lang=en
+
+3. https://www.researchgate.net/profile/Adriano-Rosa-3/publication/242538259_GESTAO_DO_TRANSPORTE_NA_LOGISTICA_DE_DISTRIBUICAO_FISICA_uma_analise_da_minimizacao_do_custo_operacional/links/577bab7c08aece6c20fcc421/GESTAO-DO-TRANSPORTE-NA-LOGISTICA-DE-DISTRIBUICAO-FISICA-uma-analise-da-minimizacao-do-custo-operacional.pdf
+
+4. https://d1wqtxts1xzle7.cloudfront.net/49041577/Logistics_and_Supply_Chain_Management-Martin_Christopher-libre.pdf?1474565751=&response-content-disposition=inline%3B+filename%3DCreating_Value_Adding_Networks_LOGISTICS.pdf&Expires=1782278339&Signature=MqUNjQqn6FN9u7AzGTm9G5hIrYVliFfEBR~5504quGmXVi7b76m~eLENFJil9efFd1Ry0l8wLfRVfOta8KS6VWwAbXuUaX9-RQxT7MHVUVTE90456NWCiH~qn6wg-ThUF0y5ilTJU5q10J2NTD-4nNQHv1Ek28KzyMlvbYGhKfJeI0iEdYtubKVVzYBrf4WSYBHuMwqP5d5EtamhjdJpoInE7fbTL45xF6fhEoP4~xCX6i1-u2FLTvLv79m940F5VAqfpQ3J-S1-RALde98hVQPg0lElzdk0INpzKVBuIyv51XlV74SJUvm6btbSWV5bTEuHASU6QpQZ7P~RWKHRnQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+
+5. https://www.researchgate.net/profile/Priscilla-Cristina-Ribeiro-2/publication/265468436_Logistica_e_TI_integradas_o_uso_do_WMS_nas_operacoes_de_armazenagem/links/540fa7490cf2d8daaad0a8b1/Logistica-e-TI-integradas-o-uso-do-WMS-nas-operacoes-de-armazenagem.pdf
 
 ### Fontes Audiovisuais (YouTube)
-1. *Vídeo:* O que é LOGÍSTICA? - Conceitos e Aplicações (Canal: Ser Logístico) — [Link](http://www.youtube.com/watch?v=63o70UWJthM)
+
+1. *Vídeo:* Estoque mínimo, estoque máximo e ponto de pedido (Canal:  Terezinha Aguiar) — [Link](https://www.youtube.com/watch?v=8HTNwf23IfM&t=440s)
 2. *Vídeo:* SUPPLY CHAIN - Tudo sobre CADEIA DE SUPRIMENTOS (Canal: Ser Logístico) — [Link](http://www.youtube.com/watch?v=hlVf6qiF5fE)
 3. *Vídeo:* O que é KPI? (Canal: Samuel M. Basso) — [Link](http://www.youtube.com/watch?v=7EMVB5YidCo)
 
+* Entre outras fontes a mais que foram usadas para treinar o modelo.
 ---
 
 ## 🛠️ 3. Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
